@@ -15,7 +15,7 @@
     <script>
         // Function to fetch data from the Python script
         async function fetchData() {
-            const response = await fetch('/circsupply.py'); // Adjust the URL as needed
+            const response = await fetch('circsupply.py'); // Adjust the URL as needed
             const data = await response.json();
             return data;
         }
